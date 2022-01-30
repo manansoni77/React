@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #fff8dc;
+}
+h1{
+    font-size: x-large;
+    font-weight: bold;
+    color: coral;
+    margin: 20px;
+    padding: 5px 20px 5px 20px;
+}
+p{
+    font-weight: bold;
+    color: seagreen;
+    margin: 20px;
+    padding: 5px 20px 5px 20px;
+}
+#playing-board{
+    background-color:cadetblue;
+    margin: 50px;
+    border: 2px solid black;
+    text-align: center;
+}
+#controls{
+    background-color: orchid;
+    margin: 50px;
+    border: 2px solid black;
+    width: max-content;
+    text-align: center;
+}
+.player{
+    display: inline-block;
+    border: 2px solid blueviolet;
+    margin: 20px;
+    width: 40%;
+}
+.dice{
+    display: inline-block;
+    border: 2px solid chartreuse;
+    width: 35%;
+    margin: 10px;
+}
+.scores{
+    display: inline-block;
+    border: 2px solid olive;
+    width: 40%;
+    margin: 20px;
+}
+button{
+    background-color: inherit;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid salmon;
+}

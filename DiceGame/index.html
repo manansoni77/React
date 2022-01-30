@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            DICE GAME!
+        </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <div>
+            <h1>
+                Welcome To DICE GAME!
+            </h1>
+            <p>
+                RULES - <br>
+                A Player wins when their score crosses 25 and is more than the opponent's score<br>
+                You've never seen a simpler rulebook &#128540
+            </p>
+            <div id="playing-board">
+                <h2>
+                    The Playing Board
+                </h2>
+                <div class="player" id="player1">
+                    <h3>
+                        Player1
+                    </h3>
+                    <div class="dice" id="player1-dice1">
+                        DICE1
+                    </div>
+                    <div class="dice" id="player1-dice2">
+                        DICE2
+                    </div>
+                </div>
+                <div class="player"  id="player2">
+                    <h3>
+                        Player2
+                    </h3>
+                    <div class="dice" id="player2-dice1">
+                        DICE1
+                    </div>
+                    <div class="dice" id="player2-dice2">
+                        DICE2
+                    </div>
+                </div>
+                <div>
+                    <h2>
+                        Score Board
+                    </h2>
+                    <div id="scoreboard">
+                        <div class="scores">
+                            <h3 id="player1-score">
+                                Player1 Score
+                            </h3>
+                        </div>
+                        <div class="scores">
+                            <h3 id="player2-score">
+                                Player2 Score
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="controls">
+                <button id="new-game-btn">
+                    New Game
+                </button>
+                <button id="roll-dice-btn">
+                    Roll
+                </button>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
